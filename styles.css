@@ -114,7 +114,6 @@ section {
 }
 
 .about-section {
-  height: 100%;
   padding-top: 150px;
   text-align: center;
   background: #233238;
@@ -133,4 +132,45 @@ section {
 
 .img-profile {
   border-radius: 50%;
+}
+
+.project-header {
+  margin-top: 5rem;
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-tile {
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  transition: transform 0.3s ease;
+}
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-tile img {
+  max-width: 100%;
+}
+.projects-container p {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.project-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-tile-img {
+  height: 500px;
+  width: 500px;
 }
